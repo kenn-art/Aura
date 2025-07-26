@@ -14,13 +14,13 @@
 
     body {
       font-family: 'Poppins', sans-serif;
-      background-color: #ffffff;
+      background-color: #4d3434;
       color: #000000;
     }
 
     header {
-      background-color: #4e342e;
-      color: white;
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
       padding: 30px 20px;
       text-align: center;
     }
@@ -31,16 +31,21 @@
     }
 
     nav {
-      background-color: #2d2d2d;
       display: flex;
       justify-content: center;
-      gap: 20px;
+      gap: 25px;
+      background-color: #8f8989; /* Black-ish */
       padding: 12px;
+      list-style: none;
+    }
+
+    nav li {
+      list-style: none;
     }
 
     nav a {
-      color: white;
       text-decoration: none;
+      color: white;
       font-weight: 600;
       padding: 6px 12px;
       border-radius: 5px;
@@ -48,7 +53,7 @@
     }
 
     nav a:hover {
-      background-color: #795548;
+      background-color: #795548; /* Light Brown */
     }
 
     .branch-section {
@@ -58,7 +63,7 @@
 
     .branch-section h2 {
       font-size: 2em;
-      color: #4e342e;
+      color: #000000;
       margin-bottom: 40px;
     }
 
@@ -100,7 +105,7 @@
 
   <header> 
     <img src="logo.png" alt="Aura Family Logo" style="height: 100px; opacity: 0.85; filter: drop-shadow(0 0 10px white);">
-    <h1>✨ Aura Family Branches ✨</h1>
+    <h1> Aura Family Branches </h1>
     <p>Explore the core teams of the Aura Family</p>
   </header>
 
@@ -111,9 +116,8 @@
       <li><a href="AboutUs.html">About Us</a></li>
       <li><a href="join.html">Join Us</a></li>
   </nav>
-
+  </nav>
   <section class="branch-section">
-    <img src="logo.png" alt="Aura Family Logo" style="height: 100px; opacity: 0.85; filter: drop-shadow(0 0 10px white);">
 
     <h2> Our Branches</h2>
     <div class="branches">
